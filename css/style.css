@@ -617,8 +617,8 @@ h1, h2, h3, h4 {
 }
 
 .product-image {
-    height: 250px;
-    background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+    height: 500px;
+    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -641,7 +641,7 @@ h1, h2, h3, h4 {
     height: 100%;
     object-fit: contain;
     z-index: 1;
-    padding: 20px;
+    padding: 10px;
 }
 
 .product-illustration {
