@@ -4,7 +4,7 @@ This file provides guidance to Claude Code when working with this repository.
 
 ## Project Overview
 
-Static single-page website for Garg Industries, a manufacturer of tinplate easy open ends (EOE) and aerosol can components based in Uttarakhand, India.
+Static single-page website for **Garg Industries** (brand: **Endo Cans**), a manufacturer of precision-engineered packaging for India's food and beverage industry, based in Uttarakhand, India.
 
 **Live Site:** https://csxa22.github.io
 
@@ -24,6 +24,7 @@ Open `http://localhost:8000` in browser.
 
 ```
 ├── index.html          # Main website (single page)
+├── README.md           # Project readme
 ├── CLAUDE.md           # This file
 ├── css/
 │   └── style.css       # All styles
@@ -32,15 +33,15 @@ Open `http://localhost:8000` in browser.
 └── images/
     ├── EOE-401.png     # EOE 401 product (99mm)
     ├── EOE-300.png     # EOE 300 product (73mm)
-    ├── dome-cone-52.jpg # 52 Dia Dome & Cone
+    ├── dome-cone-52.png # 52 Dia Dome & Cone
     └── dome-cone-65.jpg # 65 Dia Dome & Cone
 ```
 
 ## Key Sections
 
-- **Hero** - Company intro with EOE-401 product image
-- **About** - Company history, stats (10+ years, 100% quality, Pan-India)
-- **Products** - 2x2 grid layout:
+- **Hero** - "Endo Cans" branding with EOE-401 product image
+- **About** - Company history (founded 2015), location (SIDCUL Pantnagar, Uttarakhand)
+- **Products** - 2x2 grid layout (500px image height):
   - EOE 401 (99mm, 0.21mm thickness, Food Cans)
   - EOE 300 (73mm, 0.21mm thickness, Food Cans)
   - 52 Dia Dome & Cone (52mm, 0.28mm thickness, Aerosol Cans)
@@ -54,7 +55,14 @@ Open `http://localhost:8000` in browser.
 - Primary color: `#C41E3A` (red)
 - Fonts: Bebas Neue (headings), Outfit (body)
 - Responsive breakpoints: 992px, 768px
-- Products grid: 2x2 on desktop, 1 column on mobile
+- Products grid: 2x2 on desktop (max-width 900px), 1 column on mobile
+- Product image background: `linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%)`
+
+## Contact Info
+
+- **Email:** gargindustries153@gmail.com
+- **Phone:** +91 9412281207 (Rakesh Agarwal), +91 7409503128 (Aayush Agarwal)
+- **Address:** Plot no. 15, Sector 3, IIE Pantnagar, Rudrapur (U.S.Nagar) - 263153, Uttarakhand
 
 ## Deployment
 
