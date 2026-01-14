@@ -94,14 +94,14 @@ h1, h2, h3, h4 {
 }
 
 .logo-img {
-    height: 55px;
+    height: 75px;
     width: auto;
     transition: var(--transition);
     filter: brightness(0) invert(1);
 }
 
 .navbar.scrolled .logo-img {
-    height: 45px;
+    height: 60px;
     filter: none;
 }
 
@@ -324,15 +324,7 @@ h1, h2, h3, h4 {
 }
 
 .hero-image-bg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height: 400px;
-    background: rgba(255,255,255,0.1);
-    border-radius: 50%;
-    animation: pulse 4s ease-in-out infinite;
+    display: none;
 }
 
 @keyframes pulse {
@@ -354,7 +346,7 @@ h1, h2, h3, h4 {
 }
 
 .can-image {
-    width: 365px;
+    width: 482px;
     height: auto;
     animation: float 3s ease-in-out infinite;
 }
@@ -1041,7 +1033,7 @@ h1, h2, h3, h4 {
 }
 
 .footer-logo .logo-img {
-    height: 50px;
+    height: 70px;
     width: auto;
     opacity: 0.8;
 }
