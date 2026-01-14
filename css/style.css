@@ -93,6 +93,18 @@ h1, h2, h3, h4 {
     font-weight: 700;
 }
 
+.logo-img {
+    height: 90px;
+    width: auto;
+    transition: var(--transition);
+    filter: brightness(0) invert(1);
+}
+
+.navbar.scrolled .logo-img {
+    height: 65px;
+    filter: none;
+}
+
 .logo-text {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.4rem;
@@ -1028,13 +1040,10 @@ h1, h2, h3, h4 {
     gap: 0.75rem;
 }
 
-.footer-logo .logo-icon {
-    width: 40px;
-    height: 40px;
-}
-
-.footer-logo .logo-icon span {
-    font-size: 1.2rem;
+.footer-logo .logo-img {
+    height: 70px;
+    width: auto;
+    opacity: 0.8;
 }
 
 .footer-logo .logo-text {
