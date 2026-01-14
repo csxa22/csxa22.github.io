@@ -94,14 +94,14 @@ h1, h2, h3, h4 {
 }
 
 .logo-img {
-    height: 90px;
+    height: 55px;
     width: auto;
     transition: var(--transition);
     filter: brightness(0) invert(1);
 }
 
 .navbar.scrolled .logo-img {
-    height: 65px;
+    height: 45px;
     filter: none;
 }
 
@@ -1041,7 +1041,7 @@ h1, h2, h3, h4 {
 }
 
 .footer-logo .logo-img {
-    height: 70px;
+    height: 50px;
     width: auto;
     opacity: 0.8;
 }
