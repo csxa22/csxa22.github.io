@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://endocans.com/</loc>
+        <lastmod>2026-01-18</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://endocans.com/images/Endo cans-01.png</image:loc>
+            <image:title>Endo Cans Logo - Premium Metal Can Ends Manufacturer</image:title>
+            <image:caption>Endo Cans by Garg Industries - Leading EOE and metal can ends manufacturer in India</image:caption>
+        </image:image>
+    </url>
+
+    <!-- About Section -->
+    <url>
+        <loc>https://endocans.com/#about</loc>
+        <lastmod>2026-01-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Products Section -->
+    <url>
+        <loc>https://endocans.com/#products</loc>
+        <lastmod>2026-01-18</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://endocans.com/images/EOE-401.png</image:loc>
+            <image:title>EOE 401 - 99mm Easy Open End</image:title>
+            <image:caption>Full aperture easy open end for food cans - 99mm diameter, 0.21mm tinplate</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://endocans.com/images/EOE-300.png</image:loc>
+            <image:title>EOE 300 - 73mm Easy Open End</image:title>
+            <image:caption>Easy open end for food and dairy cans - 73mm diameter, 0.21mm tinplate</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://endocans.com/images/dome-cone-52.png</image:loc>
+            <image:title>52mm Dome and Cone</image:title>
+            <image:caption>Aerosol can component - 52mm diameter, 0.28mm tinplate</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://endocans.com/images/dome-cone-65.jpg</image:loc>
+            <image:title>65mm Dome and Cone</image:title>
+            <image:caption>Aerosol can component - 65mm diameter, 0.28mm tinplate</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Capabilities Section -->
+    <url>
+        <loc>https://endocans.com/#capabilities</loc>
+        <lastmod>2026-01-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Clients Section -->
+    <url>
+        <loc>https://endocans.com/#clients</loc>
+        <lastmod>2026-01-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Contact Section -->
+    <url>
+        <loc>https://endocans.com/#contact</loc>
+        <lastmod>2026-01-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>
