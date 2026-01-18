@@ -1048,6 +1048,11 @@ h1, h2, h3, h4 {
     font-size: 0.9rem;
 }
 
+/* Mobile break - hidden by default */
+.mobile-break {
+    display: none;
+}
+
 /* Mobile Styles */
 @media (max-width: 992px) {
     .hero-content {
@@ -1074,6 +1079,10 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 768px) {
+    .mobile-break {
+        display: block;
+    }
+
     .nav-links {
         display: none;
         position: absolute;
@@ -1101,6 +1110,51 @@ h1, h2, h3, h4 {
 
     .hero h1 {
         font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .hero-text {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-visual {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-product {
+        display: flex;
+        justify-content: center;
+    }
+
+    .can-image {
+        width: 100%;
+        max-width: 380px;
+        height: auto;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-text h3 {
+        text-align: center;
+    }
+
+    .about-text p,
+    .hero p,
+    .capability-card p,
+    .contact-details p,
+    .section-subtitle {
+        text-align: center;
     }
 
     .about-stats {
