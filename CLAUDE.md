@@ -4,9 +4,10 @@ This file provides guidance to Claude Code when working with this repository.
 
 ## Project Overview
 
-Static single-page website for **Garg Industries** (brand: **Endo Cans**), a manufacturer of precision-engineered packaging for India's food and beverage industry, based in Uttarakhand, India.
+Static single-page website for **Endo Cans** (Garg Industries), a manufacturer of precision-engineered packaging for India's food and beverage industry, based in Uttarakhand, India.
 
-**Live Site:** https://csxa22.github.io
+**Live Site:** https://endocans.com (Custom domain)
+**GitHub Pages:** https://csxa22.github.io
 
 ## Development
 
@@ -24,10 +25,12 @@ Open `http://localhost:8000` in browser.
 
 ```
 ├── index.html          # Main website (single page)
+├── CNAME               # Custom domain (endocans.com)
 ├── README.md           # Project readme
 ├── CLAUDE.md           # This file
+├── .gitignore          # Ignores screenshots/, plans/, tests/
 ├── css/
-│   └── style.css       # All styles
+│   └── style.css       # All styles (includes mobile responsive)
 ├── js/
 │   └── script.js       # Navigation, animations, form handling
 └── images/
@@ -66,7 +69,7 @@ Open `http://localhost:8000` in browser.
 
 ## Deployment
 
-Hosted on GitHub Pages. To deploy:
+Hosted on GitHub Pages with custom domain. To deploy:
 
 ```bash
 git add .
@@ -74,4 +77,12 @@ git commit -m "message"
 git push
 ```
 
-Changes go live automatically at https://csxa22.github.io
+Changes go live automatically at https://endocans.com
+
+## Mobile Responsive
+
+- Breakpoints: 992px, 768px
+- `.mobile-break` class for mobile-only line breaks (hidden on desktop)
+- Hero section centered on mobile
+- About section text centered on mobile
+- Paragraphs and subtitles centered on mobile

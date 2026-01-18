@@ -1,10 +1,10 @@
-# Garg Industries Website
+# Endo Cans Website
 
-Official website for **Garg Industries** - a leading manufacturer of precision-engineered packaging for India's food and beverage industry.
+Official website for **Endo Cans** (Garg Industries) - a leading manufacturer of precision-engineered packaging for India's food and beverage industry.
 
 ## Live Site
 
-🌐 **https://csxa22.github.io**
+🌐 **https://endocans.com**
 
 ## About
 
